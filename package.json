@@ -1,0 +1,35 @@
+{
+  "name": "evented.io",
+  "version": "0.1.0",
+  "description": "Evented.io is a realtime API server.",
+  "main": "index.js",
+  "dependencies": {
+    "express.io": "~1.1.13",
+    "node.extend": "~1.0.9",
+    "winston": "~0.7.2",
+    "mongoose": "~3.8.4",
+    "passport": "~0.1.18",
+    "passport-local": "~0.1.6",
+    "mongoose-validator": "~0.2.2",
+    "redis": "~0.10.0",
+    "fibers": "~1.0.1",
+    "connect-redis": "~1.4.6",
+    "bcrypt-nodejs": "0.0.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.8.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-simple-mocha": "~0.4.0",
+    "superagent": "~0.16.0",
+    "expect.js": "~0.2.0",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "scripts": {
+    "postinstall": "grunt test"
+  },
+  "repository": "https://github.com/aitoroses/node-mail",
+  "author": "Grayfox",
+  "license": "MIT",
+  "gitHead": "472e6a3f84e89a37ad96ca27c03baf2499e6dc4b"
+}
